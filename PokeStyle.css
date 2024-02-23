@@ -1,0 +1,57 @@
+.div1{
+    background-color: brown;
+    text-align: center;
+    color: aliceblue;
+
+}
+.body {
+    border-color: black;
+}
+
+.Parrafo{
+    font-size: 20px;
+    margin-left: 10px;
+}
+
+.Titulos{
+    margin-left: 10px;
+
+}
+.Foott{
+        text-align: center;
+        background-color: brown;
+        color: white;
+        position: fixed;
+        width: 100%;
+        bottom: 0;
+}
+
+.Imagenes{
+    width: 150px;
+}
+
+#contenedorImagen {
+    max-width: 300px;
+    margin: 0;
+}
+
+#contenedorImagen img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0;
+}
+
+.botones-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.boton {
+    border: 2px solid black;
+    background-color: yellow;
+    padding: 10px;
+    cursor: pointer;
+    margin-bottom: 20px;
+}
